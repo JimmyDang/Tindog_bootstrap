@@ -4,17 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Stylesheet and bootstrap -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu" rel="stylesheet">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 
   <section id="title">
-    <!-- Nav Bar -->
-    <nav class ="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Tindog</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target ="#headerMenu">
+  <!-- Nav Bar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="#">tindog</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="headerMenu">
@@ -32,17 +39,18 @@
       </div>
     </nav>
     <!-- Title -->
-
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Meet new and interesting dogs nearby.</h1>
+        <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple title-icon"></i>Download</button>
+        <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fab fa-google-play title-icon"></i>Download</button>
+      </div>
+      <div class="col-lg-6">
+        <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+      </div>
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
-    </div>
-
-  </section>
+  </div>
+</section>
 
 
   <!-- Features -->
