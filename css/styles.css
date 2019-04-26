@@ -126,9 +126,16 @@ p{
 .social-icon:hover{
   color: #ff4c68;
 }
+
 @media (max-width:1028px){
   #title{
     text-align: center;
+  }
+  #title .container-fluid{
+    padding: 20px 40px 10px;
+  }
+  .container-fluid{
+    padding: 20px 40px;
   }
   .nav-link{
     font-size: 1.2rem;
