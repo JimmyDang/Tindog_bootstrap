@@ -132,15 +132,16 @@ p{
     padding-right: 0;
     padding-left: 0;
   }
-  .color-section {
-    padding: 5px 5px;
+  .container-fluid{
+    padding: 0 0;
   }
-
+  .color-section {
+    padding: 3% 3%;
+  }
   .white-section {
-    padding: 5px 30px;
+    padding: 3% 20%;
     font-size: 2.5rem;
   }
-
   p {
     font-size: 1.5rem;
   }
@@ -177,9 +178,11 @@ p{
   }
 
   .title-image {
+    width: 50%;
     position: static;
     transform: rotate(0);
   }
+
 
   .social-icon {
     font-size: 2rem;
